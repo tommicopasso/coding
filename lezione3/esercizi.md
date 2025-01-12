@@ -47,3 +47,17 @@ Riprendere il problema del **pendolo semplice** e graficare la relazione tra la 
 **Esempio di output**:  
 Un grafico con barre di errore per i dati sperimentali e una curva teorica sovrapposta.  
 
+---
+
+## 4. Stima di $\pi$ con il Metodo Monte Carlo e matplotlib
+
+Utilizzando il **metodo Monte Carlo**, stimare il valore di $\pi$ generando punti casuali all'interno di un quadrato unitario. Visualizzare il risultato graficamente con **matplotlib**, mostrando:
+- I punti che cadono all'interno del cerchio di raggio 1.
+- I punti che cadono fuori dal cerchio (in azzurro).
+- Un cerchio di riferimento sovrapposto al grafico.
+
+#### Istruzioni:
+1. Generare $n = 1000$ punti casuali con coordinate $x, y$ uniformemente distribuite tra $-1$ e $1$.
+2. Calcolare la distanza di ciascun punto dall'origine $(0, 0)$ e determinare se il punto è interno o esterno al cerchio.
+3. Usare la formula $ \pi \approx 4 \times \frac{\text{numero punti interni}}{\text{numero totale di punti}} $ per stimare il valore di $\pi$.
+4. Mostrare il grafico con le specifiche sopra indicate, includendo il valore stimato di $\pi$ nel titolo.
